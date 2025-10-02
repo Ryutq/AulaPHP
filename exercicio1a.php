@@ -2,8 +2,8 @@
 
 if (isset($_REQUEST["Enviar"])){
     $name = $_REQUEST["Cliente"];
-    $sexo = $_REQUEST["sexo"];
-    $valor = $_REQUEST["valorcompra"];
+    $sexo = $_REQUEST["Sexo"];
+    $valor = $_REQUEST["ValorCompra"];
 
     if ($sexo == 'feminino') {
         $desconto = 0.20;
